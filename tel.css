@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 96%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}       
+.nav_nok{
+    color: rgb(250,195,115);
+    cursor: pointer;
+}
+.search{
+    width: 800px;
+    height: 40px;
+    outline: none;
+    border: 1px solid rgb(250,195,115);
+    cursor: pointer;
+    margin-left: 15px;
+    display: flex;
+    border-radius: 5px;
+}
+.search2{
+    width: 550px;
+    height: 39px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(250,195,115);
+    text-indent: 5px;
+}
+.select{
+    width: 200px;
+    cursor: pointer;
+    height: 100%;
+    border: 1px solid rgb(250,195,115);
+        border-radius: 5px 0px 0px 5px;
+}
+.option{
+    color: rgb(250,195,115);
+}
+.search_box{
+    width: 50px;
+    height: 100%;
+    background-color: rgb(250,195,115);
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search_box i{
+    font-size: 20px;
+    color: yellow;
+}
+.nav_icons_banner{
+    width: 500px;
+    height: 40px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_icons_banner li{
+    list-style: none;
+}
+.nav_icons_banner a{
+    color: rgb(250,195,115);
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid ;
+    color: black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: #ddd;
+    border: 2px solid white;
+}
+.dark{
+    background: #222;
+    color: #ddd;
+    transition: 2s;
+}
+.katolog{
+    width: 96%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.katolog li{
+    list-style: none;
+}
+.katolog a{
+    color: rgb(250,195,115);
+    text-decoration: none;
+}
+.katolog a:hover{
+    color: gray;
+}
+
+.carusel{
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    margin: 30px auto;
+}
+.carusel__chayl{
+    width: 20%;
+    min-width: 24%;
+    height: 430px;
+    background: whitesmoke;
+    overflow: auto;
+    margin: 10px;
+}
+
+.card_banner{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 19%;
+    height: 390px;
+    border: 3px solid rgb(250,195,115);
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scaleX(1.1);
+}
+.card img{
+    width: 100%;
+    height: 250px;
+    transition: 1s;
+
+}
+.btn3{
+    width: 98%;
+    height: 26px;
+    background-color: rgb(250,195,115);
+    border: none;
+    border-radius: 5px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+    .search{
+        width: 70%;
+    }
+    .select{
+        display: none;
+    }
+    .nav_nok{
+        width: 100%;
+        text-align: center;
+    }
+    .nav_icons_banner{
+        position: fixed;
+        bottom: 0;
+        left: 0;    
+        width: 100%;
+        height: 60px;
+        background: #fff;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .katolog{
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    margin: 30px auto;
+    }
+    .katolog li a{
+       margin-left: 200px;
+    }
+    .card{
+        width: 100%;
+
+        margin-left: 0px;
+    }
+    .card_banner{
+        margin-left: 20px;
+    }
+}
